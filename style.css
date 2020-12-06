@@ -1,0 +1,243 @@
+
+
+html {
+  background-color: black; 
+/*  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover*/
+}
+
+
+
+.navbar  {
+	padding: 1%;
+	padding-right: 1%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+* {
+   font-family: myFirstFont;
+}
+
+#banner {
+	background: linear-gradient(rgba(0,0,0,0.7), #096b79),url(img/full.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+#visit-blue {
+	align-items: center;
+}
+
+.btn-visit {
+	margin: 70px auto 0;
+	margin-bottom: 100%; 
+	align-items: center;
+	margin-top: 5%;
+	margin-left: 38%; 
+}
+
+.btn-visit a {
+	width: 150px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 12px 0;
+	color: black;
+	border: .5px solid #096b79;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	border-color: #096b79;
+	border-radius: 25px;
+}
+
+.btn-visit a span {
+	width: 0%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #096b79;
+	position: absolute;
+	z-index: -1;
+	transition: 0.5s;
+	align-items: center;
+}
+
+.btn-visit a:hover span{
+	width: 100%;
+	border-radius: 25px;
+	color: white;
+}
+
+
+.logo {
+	margin-left: 2%;
+	margin-top: 2%;
+	width: 6%;
+	height: 16%
+}
+
+.banner-text {
+	text-align: center;
+	color: white;
+	padding-top: 170px;
+}
+
+.banner-text h1 {
+	font-size: 1000%;
+	font-family: 'Kaushan Script';
+}
+
+.banner-text p {
+	font-size: 180%;
+	font-style: italic;
+	font-weight: 500;
+}
+
+.banner-text p:hover {
+  font-size: 200%;
+  font-weight: 900;
+  background: -webkit-linear-gradient(white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-home {
+	  margin: 70px auto 0;
+	  margin-top: 35px; 
+}
+
+.btn-home a {
+	width: 150px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 12px 0;
+	color: white;
+	border: .5px solid white;
+	border-radius: 25px;
+	position: relative;
+	z-index: 1;
+}
+
+.btn-home a:hover {
+	color:black;
+}
+
+.btn-home a span {
+	width: 0%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: white;
+	color: black;
+	position: absolute;
+	z-index: -1;
+	transition: 0.3s;
+}
+
+.btn-home a:hover span{
+	color: black;
+	border-radius: 25px;
+	width: 100%;
+}
+
+/*.banner-text p {
+	font-weight: 600;
+}*/
+
+
+/*.btn-home:hover {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+
+}*/
+
+#write {
+	background:  url(img/white.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	margin-left: 20%;	
+	margin-right: 20%;
+/*	margin-top: 2000%
+	margin-bottom:-100%;*/
+}
+
+.topnav {
+  	overflow: hidden;
+ 	background: linear-gradient(rgba(0,0,0,1), #096b79);
+    margin: 0;
+  	font-family: 'Kaushan Script', cursive;
+  	width: 100%;
+  	position: relative;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color:  #076b69;
+}
+
+.topnav a.active {
+  background: linear-gradient(rgba(0,0,0,1), #096b79);
+  color: white;
+}
+
+.title1 {
+	margin-right: 10%;
+	margin-left: 10%;
+	font-size: 110%;
+	font-family:'poppins';
+	font-weight: 500; 
+	text-align: center;
+	font-size: 300%;
+	margin-top: -5%;
+}
+
+.page2-para {
+	margin-right: 10%;
+	margin-left: 10%;
+	font-size: 110%;
+	font-family: 'Kaushan Script', cursive;
+	font-weight: 500;
+}
+
+.btn-blue {
+	  background-color: #096b79;
+	  border-radius: 10px;
+	  padding: 14px 25px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  cursor: pointer;
+	  position: relative;
+	  margin-top: 2.5%;
+	  font-size: 100%;
+	  color: white;
+	  font-weight: 650;
+	  position: static;
+	  margin-left: 40%;
+	  margin-right: 40%;
+}
+
+.QR {
+	align-content: center;
+	margin-left: 43%;
+
+}
